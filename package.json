@@ -1,0 +1,26 @@
+{
+  "name": "prep",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha tests/app",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.14.1",
+    "body-parser": "~1.16.1",
+    "mongoose": "~4.8.3",
+    "dotenv": "~4.0.0"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "chai-http": "~3.0.0",
+    "mocha": "~3.2.0"
+  }
+}
